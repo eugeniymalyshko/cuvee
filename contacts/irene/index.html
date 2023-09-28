@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <title>Cuvee contacts</title>
   </head>
 
@@ -19,26 +19,39 @@
                   <div class="vcard-main__position">Champagne & Wine.Consulting & Import</div>
                   <div class="vcard-main__company">Cuvee</div>
                 </div>
-                <div class="vcard-main__bottom">
-                  <ul class="vcard-main__list list-vcard">
-                    <li class="list-vcard__item list-vcard__item--phone">
-                      <a href="tel:tel:+380675029921" class="list-vcard__link">+380675029921</a>
-                      <a href="tel:tel:+380675029921" class="list-vcard__link">+380675029921</a>
-                    </li>
-                    <li class="list-vcard__item list-vcard__item--site">
-                      <a href="https://cuvee.tilda.ws/irenegridina">https://cuvee.tilda.ws/irenegridina</a>
-                    </li>
-                    <li class="list-vcard__item list-vcard__item--email">
-                      <a href="mailto:Irene.gridina@gmail.com">Irene.gridina@gmail.com</a>
-                    </li>
-                  </ul>
+                <div data-spollers class="vcard-main__spollers">
+                  <div class="list-vcard__item list-vcard__item--phone">
+                    <button tabindex="-1" data-spoller type="button" class="list-vcard__button _icon-down">
+                      <i class="vcard-main__icon vcard-main__icon--phone _icon-phone">Телефон</i>
+                    </button>
+                    <div class="list-vcard__content">
+                      <a href="tel:+380675029921" class="list-vcard__link">+380675029921 <span>Зателефонувати</span></a>
+                    </div>
+                  </div>
+                  <div class="list-vcard__item list-vcard__item--site">
+                    <button tabindex="-1" type="button" data-spoller class="list-vcard__button _icon-down">
+                      <i class="vcard-main__icon vcard-main__icon--phone _icon-internet">Вебсайт</i>
+                    </button>
+                    <div class="list-vcard__content">
+                      <a href="https://cuvee.com.ua" class="list-vcard__link">https://cuvee.com.ua <span>Відвідати вебсайт</span></a>
+                    </div>
+                  </div>
+                  <div class="list-vcard__item list-vcard__item--email">
+                    <button tabindex="-1" type="button" data-spoller class="list-vcard__button _icon-down">
+                      <i class="vcard-main__icon vcard-main__icon--phone _icon-mail">Email</i>
+                    </button>
+                    <div class="list-vcard__content">
+                      <a href="mailto:Irene.gridina@gmail.com" class="list-vcard__link">irene.gridina@gmail.com <span>Надіслати email</span></a>
+                    </div>
+                  </div>
                 </div>
+                <a href="/contacts/irene/vcard/Irene-vcard.vcf" class="vcard-main__vcard">Завантажити VCard</a>
               </div>
             </div>
           </div>
         </section>
       </main>
-      <script src="js/app.min.js"></script>
+      <script src="../js/app.min.js"></script>
     </div>
   </body>
 </html>
