@@ -271,6 +271,7 @@ body._lock {
   min-width: 100%;
   margin-bottom: 1.8rem;
   font-size: 1.8rem;
+  color: #000;
 }
 
 .list-vcard__button::before {
