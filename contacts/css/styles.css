@@ -276,6 +276,11 @@ body._lock {
 
 .list-vcard__button::before {
   font-size: 2.4rem;
+  transition: all 0.3s ease 0s;
+}
+
+.list-vcard__button._active::before {
+  transform: rotate(180deg);
 }
 
 .list-vcard__content {
